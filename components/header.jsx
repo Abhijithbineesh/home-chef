@@ -1,11 +1,16 @@
-
-
 export default function Header() {
-    return (
-        <header className="flex justify-center items-center gap-3 h-20 bg-white shadow-sm">
-            <img src="/vite.svg" alt="Chef Logo" className="w-12" />
-            <h1 className="font-normal text-lg sm:text-xl md:text-2xl">🇮🇳 Home Chef AI</h1>
-        </header>
-    )
+  return (
+    <header className="flex items-center justify-center gap-4 bg-white rounded-xl shadow-md p-4 md:p-6 mb-6">
+      <img
+        src="homecheflogo.png"
+        alt="Chef Logo"
+        className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+      />
+      <h1 className="text-xl md:text-3xl font-semibold text-blue-900">
+        🇮🇳 Home Chef AI
+      </h1>
+    </header>
+  );
 }
+
 

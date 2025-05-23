@@ -1,12 +1,28 @@
-# React + Vite
+# 🇮🇳 Home Chef AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Home Chef AI** is a simple yet powerful web application that helps users generate Indian (Kerala-style) recipes using the ingredients they already have at home. It uses the Gemini AI API to create delicious recipes tailored to your pantry contents.
 
-Currently, two official plugins are available:
+## 🧠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📝 Add ingredients dynamically
+- 🍛 AI-powered recipe generation (Kerala-style)
+- 📱 Fully responsive layout (mobile, tablet, desktop)
+- 🔍 Clean, modern UI built with Tailwind CSS
+- ♻️ Smooth auto-scroll to the recipe section
+- ✨ Built-in loading feedback while AI responds
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+- **React** – UI framework
+- **Vite** – Lightning-fast development bundler
+- **Tailwind CSS v4** – Utility-first responsive styling
+- **Gemini API** – AI-powered recipe generation
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/home-chef-ai.git
+cd home-chef-ai
